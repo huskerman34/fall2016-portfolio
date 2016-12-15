@@ -14,15 +14,10 @@ body {
     margin-bottom: 50px; 
     
     
+    
 }
 
-#main {
-   
-    padding-bottom: 25px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    margin-bottom: 15px;
-}
+
 
 footer {
     position: fixed;
@@ -35,7 +30,7 @@ footer {
 }
 
 
-
+tbody {background color: snow;}
 
 
 
@@ -43,12 +38,12 @@ footer {
    
 }
 
-.navbar-inverse {
+.navbar-inverse {color:#a5bcbb; 
     
 }
 .navbar-inverse .btn {
    
 }
-  #education {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+h1 { background-color: #384883; border-bottom: 3px ridge #330000;}
     
-,prokile {border-bottom-style: solid; border-color: black;}
+#profile {background-color:#a5bcbb; margin: auto;}
