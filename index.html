@@ -6,67 +6,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap Starter Template</title>
-
+    <title>FINAL PROJECT </title>
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="final.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    <!--[if lt IE 9]>=====>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
-<body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Project name</a>
+                <a class="navbar-brand" href="#">Edgar F Greenwood </a>
             </div>
-            <div id="navbar" class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li> <a href="#skills">Skills</a></li>
+                    <li> <a href="#education">Education</a></li>
+                    <li> <a href="#gallery">Gallery</a></li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
     </nav>
-    <main>
-
-    <div class="container">
+    <div class="container" id="main">
+        <section id="profile">
+            <header>
+                <h1 class="text-center">Edgar F Greenwood Portfolio </h1>
+                <h2 class="text-center">Profile</h2>
+            </header>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                    <img src="images/efg.JPG" alt="efg" class="img-responsive">
+                </div>
+            </div>
+                <div class="row">
+                <div class="col-xs-12 col-sm-6  col-sm-offset-3">
+                    <p>Hello, my name is Edgar F Greenwood. Im studying Newtwork Administration. My goal is to transfer to a 4 year college. Im intrigued with setting up networks and maintaing them.</p>
+                </div>
+            </div>
+        </section>
         
-        <br><br><br>
-        <h1>Bootstrap Starter Template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.
-            <br> All you get is this text and a mostly barebones HTML document.</p>
-    </div>
-    <!-- /.container -->
-<div id="row">
- <div class="col-xs-12 col-md-8">
-   <img src="images/efg.JPG"> 
-        </div>       
-       <div class="col-xs-12 col-md-8">
-    <img src="images/efg.JPG" width="195" height="195" class="rounded">
-    </div>
-        </div> 
+        <section id="skills" class="container-fluid">
+            <h2 id="hard" class="text-center">Skills</h2>
+            <ul>
+                <li> Some knowledge of Microsoft Word</li>
+                <li> Git Hub</li>
+                <li> HTML</li>
+            </ul>
+        </section>
+        <section id="education" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 md-8">
+                    <h2 id="edu" class="text-center">Education and Classes</h2>
+                    <table class="table">
+                        <thead>
+                            <tr class="altrow">
+                                <th>College</th>
+                                <th>Major</th>
+                                <th>Classes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Iowa Western Community College</td>
+                                <td>General Studies</td>
+                                <td>Generals </td>
+                                <tr>
+                                    <td>Hennepin Tech</td>
+                                    <td>Generals </td>
+                                    <td>3d Studio Max</td>
+                                </tr>
+                                <tr>
+                                    <td>Hennepin Tech </td>
+                                    <td>Network Administration</td>
+                                    <td> Html, General electives</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="container-fluid">
+            <h2 id="gal" class="text-center">Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </main>    
-</body>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <a href="https://huskerman34.github.io/fan-page/"> <img src="images/fan-page.png"  alt="fan"></a>
+                        <div class="carousel-caption">
+                            <h4>Fan-Page project</h4>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <a href="https://huskerman34.github.io/cs-pacific-trails/"><img src="images/pactrail.png"  alt="pac"></a>
+                        <div class="carousel caption">
+                            <h4>Pacific Trails Resort</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="https://huskerman34.github.io/bootstrap-grid-ex/"> <img src="images/veggies.png"  alt="veggi"></a>
+
+                        <div class="carousel-caption">
+                            <h4>Miss B Veggies</h4>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control " href="#myCarousel " role="button " data-slide="prev ">
+                    <span class="glyphicon glyphicon-chevron-left " aria-hidden="true "></span>
+                    <span class="sr-only ">Previous</span>
+                </a>
+                <a class="right carousel-control " href="#myCarousel " role="button " data-slide="next ">
+                    <span class="glyphicon glyphicon-chevron-right " aria-hidden="true "></span>
+                    <span class="sr-only ">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+        <footer class="footer">
+            <div class="container ">
+                Copyright &copy; 2016 Edgar F Greenwood
+            </div>
+            
+        </footer>
     
+    <!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
+</body>
 
 </html>
