@@ -11,7 +11,7 @@ body {
     /* Move down content because of fixed navbar at top */
     padding-top: 50px;
     /* Set margin bottom allow for footer height */
-    margin-bottom: 50px; 
+    margin-bottom: 50px; background-image:url(images/download.png);
     
     
     
@@ -29,21 +29,22 @@ footer {
     padding: 15px;
 }
 
+#hard,#edu { background-color: #384883; border-bottom: 3px ridge #330000;}
 
-tbody {background color: snow;}
+#profile,#education {background-color: #a5bcbb; margin: auto;}
+
+nav {background-color:#2f3e55;}
+
+table {margin: auto; border: 5px solid #000066; width: 600px;}
+th,td{background-color:#384883; border: 1px solid #000066; padding: 5p; font-family: Arial, sans-serif;}
+#altrow {background-color:#F4F5F0;}
 
 
-
-.navbar-inverse .navar-brand { color: black; 
-   
-}
-
-.navbar-inverse {color:#a5bcbb; 
     
-}
-.navbar-inverse .btn {
-   
-}
+
+.   
+
 h1 { background-color: #384883; border-bottom: 3px ridge #330000;}
     
-#profile {background-color:#a5bcbb; margin: auto;}
+#main {background-color:white; margin: auto; padding-left: 5px; padding-right: 5px;}
+img {height: 100; width: 100;}
