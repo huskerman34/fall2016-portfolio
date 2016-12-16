@@ -1,49 +1,88 @@
-
-
-
-html {
-    /* Needed to fix footer at bottom of browser */
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    /* Move down content because of fixed navbar at top */
-    padding-top: 50px;
-    /* Set margin bottom allow for footer height */
-    margin-bottom: 50px; background-image:url(images/download.png);
-    
-    
-    
-}
-
-
-
-footer {
-    position: fixed;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    background-color: #384883;
-    text-align: center;
-    padding: 15px;
-}
-
-h2 { background-color: #384883; border-bottom: 3px ridge #330000; margin-top: 0; padding:5px;}
-#profile h2 {background-color: inherit; border-bottom: none;}
-#profile,#education {background-color: #a5bcbb; margin: auto;}
-
-nav {background-color:#2f3e55;}
-
-table {margin: auto; border: 5px solid width: 600px;}
-th  {background-color:#2f3e55;  border: 1px solid #000066; padding: 5p; font-family: Arial, sans-serif;}
-#altrow {background-color:#F4F5F0;}
-section {padding-bottom: 30px; }
-    
-
-   
-
-h1 { background-color: #384883; border-bottom: 3px ridge #330000;}
-    
-#main {background-color:white; margin: auto; padding-left: 5px; padding-right: 5px;}
-img {height: 100; width: 100;}
+    html {
+     /* Needed to fix footer at bottom of browser */
+     position: relative;
+     min-height: 100%;
+ }
+ 
+ body {
+     /* Move down content because of fixed navbar at top */
+     padding-top: 50px;
+     /* Set margin bottom allow for footer height */
+     margin-bottom: 50px;
+     background-image: url(images/download.png);
+     background-repeat: repeat;
+ }
+ 
+ footer {
+     position: fixed;
+     bottom: 0;
+     height: 50px;
+     width: 100%;
+     background-color: #384883;
+     text-align: center;
+     padding: 15px;
+     font-weight: bolder;
+ }
+ 
+ h2 {
+     background-color: #384883;
+     border-bottom: 3px ridge #330000;
+     margin-top: 0;
+     padding: 5px;
+ }
+ 
+ #profile h2 {
+     background-color: inherit;
+     border-bottom: none;
+ }
+ 
+ #profile,
+ #education {
+     background-color: #a5bcbb;
+     padding-bottom: 15px;
+ }
+ 
+ section {
+     padding-bottom: 30px;
+ }
+ 
+ p {
+     font-weight: bold;
+     font-family: sans-serif;
+ }
+ 
+ h1 {
+     background-color: #384883;
+     border-bottom: 3px ridge #330000;
+     margin-top: 0;
+ }
+ 
+ #main {
+     background-color: white;
+     margin: auto;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 1px;
+ }
+ 
+ td {
+     font-weight: bolder;
+ }
+ 
+ ul {
+     font-family: serif;
+     list-style-image: url(images/the%20star.gif);
+     font-weight: bold; 
+ }
+ 
+ table,
+ th,
+ td {
+     border: 3px solid black;
+ }
+ 
+ th {
+     background-color: #384883;
+     ;
+     color: white;
+ }
